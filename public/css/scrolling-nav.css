@@ -1,0 +1,462 @@
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+
+}
+
+@media(min-width:767px) {
+    .navbar {
+
+        padding: 5px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        /*position: relative;*/
+        /*background-color: */
+
+        /*make the navbar clear*/
+         background: rgba(0, 0, 0, 0);
+         border: none;
+         color: white;
+
+
+/*}*/
+    /*z-index: 1;*/
+
+
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        /*color: green;*/
+    }
+/*
+    .navbar .container {
+ignore
+        position: absolute;
+        z-index: -1;
+
+        background: url(test.jpg) center center;
+        opacity: .4;
+        width: 100%;
+        height: 100%;
+
+    }*/
+}
+
+
+
+.nav-color{
+    background-color: greenyellow;
+    opacity: 0.6;
+    color: blue;
+}
+
+.row{ padding: 20px; }
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    float: top;
+    position: relative;
+    margin: 0px;
+
+
+    background: url(../imgs/code.gif) no-repeat center center scroll;
+    background-size: 100% 100%;
+}
+
+.title{
+    padding-top: 200px;
+    padding-left: 60px;
+    display: block;
+    font-family: "Arial Black";
+    font-weight: 900;
+    text-shadow: 1px 0 white;
+    letter-spacing: 0.05em;
+    font-size: 50px;
+    line-height: 1;
+    text-align: left;
+    /*vertical-align: left;*/
+    color: white;
+    /*letter-spacing: -.05em;
+    padding-bottom: .25em;*/
+}
+
+.body-text{
+    /*padding-top: 200px;*/
+    padding-left: 60px;
+    padding-right: 300px;
+    display: block;
+    font-family: "Arial";
+    /*font-weight: normal;*/
+    /*text-shadow: 1px 0 white;*/
+    letter-spacing: 0.15em;
+    font-size: 28px;
+    line-height: 0.9cm;
+    text-align: left;
+    /*vertical-align: left;*/
+    color: white;
+    /*letter-spacing: -.05em;
+    padding-bottom: .25em;*/
+}
+
+.buttons-align{
+    float: left;
+    padding-left: 70px;
+}
+
+.teaser-button{
+    /*padding-left: 60px;*/
+background-color:Transparent;
+border-color: white;
+    opacity: 10%;
+    /*border: none;*/
+    color: white;
+    font-family: "Arial Black";
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 15px 32px;
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*display: inline-block; */
+    outline: 0;
+    font-size: 16px;
+}
+
+.teaser-button:hover{
+    /*background-color: chartreuse;*/
+    background-color:Transparent;
+    /*opacity: 0.6;*/
+    color: #FF8C00;
+    border-color: #FF8C00;
+}
+
+/*About section*/
+.about-section {
+
+    height: 100%;
+    padding-top: 50;
+    margin: 60px 60px 0px 60px;
+    text-align: center;
+    background:white;
+
+}
+
+
+/*Reference section*/
+.references-section{
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: orange;
+    border-color: black;
+}
+
+.carousel-content {
+    color: #242222;
+    /*display:flex;*/
+    background-color:orange;
+    align-items:center;
+    width: 100%;
+  height: auto;
+  /*padding: 150px, 150px, 150px, 150px;*/
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 26px;
+   font-weight: bold;
+  font-family: "Comic Sans MS";
+  text-align: left;
+}
+
+
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    /*font-size: 50%;*/
+
+    /*margin-top: -50px;*/
+    color: black;
+}
+
+
+.carousel-indicators li {
+    background: black;
+    width: 14px;
+    height: 14px;
+    margin: 0, 9.5px, 0, 9.5px;
+
+
+    /*font-size: 200px;*/
+    /*background-size: 204px;*/
+}
+
+.carousel-indicators .active {
+
+    background: white;
+    border-color: black;
+    border-width: 2px;
+    width: 16px;
+    height: 16px;
+    margin: 0, 9.5px, 0, 9.5px;
+
+}
+
+/*The real about*/
+/*Serivce section*/
+.services-section {
+    height: 100%;
+    width: 100%;
+    /*padding-top: 48px;*/
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS';
+
+
+    /*background-color: greenyellow;*/
+    /*opacity: 0.6;*/
+    color: white;
+
+    background: url(../imgs/text-I.gif);
+    background-size: 100% 100%;
+    /*percentage();
+    /*background-repeat: o*/
+
+    /*position: absolute;*/
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../imgs/text-I2.png");
+
+    /* Set a specific height */
+    /*height: 900px;
+    width: 500px;*/
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paragraph{
+    padding-top: 48px;
+    padding-bottom: 20px;
+}
+
+.touch .page-scroll{
+    color: orange;
+}
+
+
+/*Skills section*/
+.skills-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.skills{
+    padding: 10px, 0, 10px, 0;
+
+    font-family: 'Trebuchet MS';
+    text-align: left;
+}
+
+/*Contact section*/
+.contact-section {
+    height: 115%;
+    /*padding-top: 0px;*/
+    text-align: center;
+    /*background: #eee;*/
+    /*background-image: linear-gradient(#79a06d, #79a06d);*/
+    background-image: url("../imgs/waterColor.jpg")
+}
+
+#box{
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 18px 5px;
+    background: rgba(200, 200, 200, 0.1);
+    border-radius: 4px;
+    top: 80px;
+}
+
+h2{
+    text-align:center;
+    color:#fff;
+}
+
+/*.navbar-fixed-top{
+    color: greenyellow;
+}*/
+
+
+/*Only for the logo*/
+.navbar-nav .navbar-header .page-scroll{
+    background: url(../imgs/logo-1.png) no-repeat center left scroll;
+    background-size: 50px;
+    padding-right: 40vw;
+
+
+}
+
+.navbar-default .navbar-nav>li>a{
+    /*padding-left: 20px;*/
+    color: white;
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    /*padding-left: 20px;*/
+    color: yellow;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Align the nav tabs to the right*/
+.navbar-nav{
+    /*padding-left: 0px;*/
+    margin-right: 0;
+}
+
+.text-vertical-center-title{
+    padding-left: 10px;
+    padding-top: 200px;
+    /*display: table-cell;*/
+    /*text-align: center;*/
+
+    /*margin-left: 40px;*/
+    vertical-align: left;
+    color: white;
+}
+
+/*.navbar .navbar-default .navbar-fixed-top{
+    background-color: red;
+}*/
+
+
+
+/*Selected tab*/
+.navbar-default  {
+    background-color: black;
+    /*opacity: .9;*/
+    color: white;
+}
+
+ .form-control{
+    padding-bottom: 8px;
+    resize: none;
+}
+
+
+
+/*.collapse .navbar-collapse .navbar-ex1-collapse{
+    color: white;
+
+}
+/*
+.text-vertical-center-header{
+    padding-left: 400px;
+    padding-top: 200px;
+    display: table-cell;
+    text-align: center;
+
+    margin-left: 40px;
+    vertical-align: left;
+    color: white;
+}*/
+
+
+.text-vertical-center {
+    padding-left: 100;
+    float: left;
+
+    padding-top: 1px;
+    display: table-cell;
+    /*text-align: center;*/
+    text-decoration-style: wavy;
+    /*margin-left: 40px;*/
+    vertical-align: left;
+    color: white;
+}
+
+
+/*underline text*/
+.style-iu0bak8k_center {
+    background-position: 0 -29px;
+    right: 45px;
+    left: 45px;
+}
+
+
+.style-iu0bak8k_ln {
+    height: 69px;
+    min-height: 290px;
+    background-image: url(../imgs/fade_in.png);
+    position: absolute;
+    top: 0;
+}
+
+
+.footer{
+    /*background-color: #79a06d;*/
+    /*background-image: url("../imgs/waterColor.jpg")*/
+}
+
+.github{
+    padding: 22 23 30px 30px;
+    background: url(../imgs/social/GitHub-black.png) no-repeat center;
+    background-size: 50px;
+    border-radius: 100px;
+    border: 0;
+    margin-bottom: 15px
+}
+
+
+.github:hover{
+    padding: 22 23 30px 30px;
+    background: url(../imgs/social/GitHub-white.png) no-repeat center;
+    background-size: 50px;
+    border-radius: 96px;
+    border: 3px;
+    border-color: #79a06d;
+    margin-bottom: 15px
+}
+
+.linkedIn{
+    padding: 22 23 30px 30px;
+    background: url(../imgs/social/linkedin-round.png) no-repeat center;
+    background-size: 50px;
+    border-radius: 100px;
+    border: 0;
+    margin-bottom: 15px
+}
+
+.linkedIn:hover{
+    padding: 22 23 30px 30px;
+    background: url(../imgs/social/linkedin-round-out.png) no-repeat center;
+    background-size: 50px;
+    border-radius: 100px;
+    border: 0;
+    margin-bottom: 15px
+}
